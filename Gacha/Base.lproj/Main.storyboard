@@ -25,7 +25,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="ひく"/>
                                 <connections>
-                                    <segue destination="1yT-Ka-EqN" kind="presentation" id="JBf-sX-2wI"/>
+                                    <segue destination="1yT-Ka-EqN" kind="presentation" modalTransitionStyle="flipHorizontal" id="JBf-sX-2wI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="モンスターガチャ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUx-5k-gh2">
@@ -52,7 +52,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="h7t-aG-brz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_gold.png" translatesAutoresizingMaskIntoConstraints="NO" id="h7t-aG-brz">
                                 <rect key="frame" x="0.0" y="-10" width="414" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -85,7 +85,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg_blue.png" width="300" height="300"/>
+        <image name="bg_gold.png" width="300" height="300"/>
         <image name="gacha.png" width="225" height="339"/>
     </resources>
 </document>
